@@ -11,7 +11,7 @@ This model estimates annual medical costs based on user-provided parameters, pro
 - [Parameters Needed](#parameters-needed)
 - [Installation](#installation)
 - [Dependencies](#dependencies)
-- [Live Model Links](#live_model_links)
+- [Live_Model_Links](#live-model-links)
 - [License](#license)
 - [Contributing](#contributing)
 - [Appendix](#appendix)
@@ -68,7 +68,7 @@ pip install -r requirements.txt
 
 ---
 
-## Live Model Links
+## Live_Model_Links
 
 - **Medical Cost Prediction Model**: [View Here](https://ajs-medical-cost-prediction-model.streamlit.app/)  
    Access the deployed model to predict annual medical costs based on user-specific inputs.
@@ -82,7 +82,7 @@ pip install -r requirements.txt
 ## LICENSE
 
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/AyushJainSparsh/medical-cost-prediction-model/blob/main/LICENSE)
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/AyushJainSparsh/medical-cost-prediction-model?tab=MIT-1-ov-file)
 
 ---
 
