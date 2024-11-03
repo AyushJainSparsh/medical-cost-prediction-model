@@ -8,9 +8,9 @@ This model will give a idea like how much you have to spend Annually on your hea
 
 ## Parameters Needed
 
-```http
+
   Data User have to Provide
-```
+
 
 | Parameter | Type     | Description                     |
 | :-------- | :------- | :------------------------------ |
@@ -21,9 +21,8 @@ This model will give a idea like how much you have to spend Annually on your hea
 |`Smoker`|`Categorical`| Did User Smoke or not           |
 |`Region`|`Categorical`| From Which Region User Belong   |
 
-```http
+
   Output User Get
-```
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
@@ -62,7 +61,7 @@ pip install jupyterlab
 pip install notebook
 ```
 
-After it download the requirements to changing directory to clone directory
+After it download the requirements by changing home directory to clone directory
 
 ``` bash 
 pip install -r requirements.txt
