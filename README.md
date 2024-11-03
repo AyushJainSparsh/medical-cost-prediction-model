@@ -11,7 +11,7 @@ This model estimates annual medical costs based on user-provided parameters, pro
 - [Parameters Needed](#parameters-needed)
 - [Installation](#installation)
 - [Dependencies](#dependencies)
-- [Live_Model_Links](#live-model-links)
+- [Live_Model_Links](#live_model_links)
 - [License](#license)
 - [Contributing](#contributing)
 - [Appendix](#appendix)
