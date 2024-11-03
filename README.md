@@ -1,40 +1,102 @@
 
 # Medical-Cost-Prediction-Model
 
-This model will give a idea like how much you have to spend Annually on your health and checkup(in USD) so that you live long and your family be happy.
-
 ![Banner](https://github.com/AyushJainSparsh/medical-cost-prediction-model/blob/main/Gallery/1353378.jpeg)
 
+This model estimates annual medical costs based on user-provided parameters, providing insights into potential healthcare expenses to support better health planning.
+
+---
+
+## Table of Contents
+- [Parameters Needed](#parameters-needed)
+- [Installation](#installation)
+- [Dependencies](#dependencies)
+- [Live Model Links](#live_model_links)
+- [License](#license)
+- [Contributing](#contributing)
+- [Appendix](#appendix)
+- [Demo](#demo)
+
+---
 
 ## Parameters Needed
 
+**Input:**
 
-  Data User have to Provide
+| Parameter   | Type         | Description                                   |
+|-------------|--------------|-----------------------------------------------|
+| `Age`       | Numeric      | User age between 18 to 65 years               |
+| `Sex`       | Categorical  | User gender (Male or Female)                  |
+| `BMI`       | Numeric      | Body Mass Index of the user                   |
+| `Children`  | Numeric      | Number of children the user has               |
+| `Smoker`    | Categorical  | Indicates if the user is a smoker or not      |
+| `Region`    | Categorical  | User’s geographic region (e.g., Northeast)    |
+
+**Output:**
+
+| Parameter      | Type       | Description                                  |
+|----------------|------------|----------------------------------------------|
+| `Annual Cost`  | Numeric    | Predicted annual medical cost in USD         |
+
+---
+
+## Installation
+
+Clone the repository:
+```bash
+git clone https://github.com/AyushJainSparsh/medical-cost-prediction-model.git
+```
+
+Change to the project directory:
+```bash
+cd medical-cost-prediction-model
+```
+
+Install dependencies as listed below.
+
+---
+
+## Dependencies
+
+To run this project, ensure the following Python packages are installed:
+
+```bash
+pip install jupyterlab
+pip install notebook
+pip install -r requirements.txt
+```
+
+---
+
+## Live Model Links
+
+- **Medical Cost Prediction Model**: [View Here](https://ajs-medical-cost-prediction-model.streamlit.app/)  
+   Access the deployed model to predict annual medical costs based on user-specific inputs.
+
+- **Other Deployed Models**: [View My Model Collection](https://linktr.ee/joyboy0599)  
+   Explore additional models and projects on my Linktree.
 
 
-| Parameter | Type     | Description                     |
-| :-------- | :------- | :------------------------------ |
-| `Age` | `Numeric`    | User Age between 18 to 65 years |
-| `Sex` | `Categorical`| User Sex (Male or Female)       |
-| `BMI` | `Numeric`    | User Body Mass Index            |
-|`Children`|`Numeric`  | Number of Children User have    |
-|`Smoker`|`Categorical`| Did User Smoke or not           |
-|`Region`|`Categorical`| From Which Region User Belong   |
-
-
-  Output User Get
-
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `Annual Cost`| `Numeric` | Annual Cost in USD            |
-
+---
 
 ## LICENSE
 
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/AyushJainSparsh/medical-cost-prediction-model/blob/main/LICENSE)
 
+---
 
+## Contributing
+
+We welcome contributions! Submit a pull request or create an issue with suggestions. See our Contributing Guidelines for more details.
+
+---
+
+## Appendix
+
+For full project information and dataset details, see the [About Project](https://github.com/AyushJainSparsh/medical-cost-prediction-model/blob/main/About%20Project.ipynb) file.
+
+---
 
 ## Demo
 
@@ -46,35 +108,4 @@ This model will give a idea like how much you have to spend Annually on your hea
 
 ![DemoImage3](https://github.com/AyushJainSparsh/medical-cost-prediction-model/blob/main/Gallery/Screenshot%202024-11-03%20151929.png)
 
-
-## Dependencies
-
-To run this project, you will need to download some libraries of python.
-
-Run these commands to download dependencies
-
-``` bash
-pip install jupyterlab
-```
-
-``` bash
-pip install notebook
-```
-
-After it download the requirements by changing home directory to clone directory
-
-``` bash 
-pip install -r requirements.txt
-```
-
-
-## Contributing
-
-Contributions are always welcome!
-
-
-
-## Appendix
-
-The full information about this project and about dataset is given [Here](https://github.com/AyushJainSparsh/medical-cost-prediction-model/blob/main/About%20Project.ipynb).
-
+---
